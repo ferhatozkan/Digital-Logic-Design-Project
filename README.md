@@ -2,11 +2,13 @@
 University of Marmara, CSE3015 2018 Fall Project
 
 <h2><b> This project contains: </b></h2>
+<ul>
   <li> Part 1 contains Assembler written in Python </li>
   <li> Part 2 contains Logisim design of CPU and its components </li>
   <li> Part 3 contains Verilog code of our CPU </li>
   <li> Also detailed project report can be found in repository </li>
-  
+</ul>
+
 <h2><b> Detailed information: </b></h2>
 <ul>
   <li>Data Memory.txt contains the initial values of the memory.</li>
