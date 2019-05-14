@@ -3,6 +3,10 @@ University of Marmara, CSE3015 2018 Fall Project
 
 
 <ul>
+  Basic CPU design with Logisim and Verilog
+</ul> 
+
+<ul>
 <li>Data Memory.txt contains the initial values of the memory.</li>
 <li>Input.txt contains instructions to be executed.</li>
 <li>Instruction Memory.txt contains instructions in assembly format.</li>
