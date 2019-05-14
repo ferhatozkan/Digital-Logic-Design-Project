@@ -1,0 +1,30 @@
+
+`timescale 1ns / 1ns
+
+module rom(clk,load,address,data_out);
+ 
+  //clock, write and read signal
+   input clk;
+   input load;
+   output [19:0] data_out;
+   input [19:0] address     ;
+   reg  [19:0] data_out;
+   reg [19:0] mem [0:19];
+
+
+ initial begin
+   $readmemb("memory.list", mem); // memory_list is memory file
+ end
+
+  always @ (posedge clk)
+  begin : MEM_READ
+    if ( load ) 
+    begin
+      data_out = mem[address];
+    end 
+  end
+  
+
+  
+
+endmodule
